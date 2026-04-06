@@ -3,24 +3,7 @@
 Prosta aplikacja Web API napisana w ASP.NET Core, która pobiera dane o krajach z publicznego API, zapisuje je w bazie SQLite oraz udostępnia własne endpointy do ich przeglądania i analizy.
 
 
-I. Funkcjonalności
-
-- Import danych o krajach z zewnętrznego API
-- Zapis danych w lokalnej bazie SQLite
-- Wyszukiwanie krajów po nazwie
-- Statystyki (liczba krajów, regiony, najludniejszy kraj)
-
-
-II. Technologie
-
-- .NET 10
-- ASP.NET Core Web API
-- Entity Framework Core
-- SQLite
-- Swagger (Swashbuckle)
-
-
-III. Uruchomienie projektu
+I. Uruchomienie projektu
 
 1. Sklonuj repozytorium
 
@@ -46,6 +29,23 @@ dotnet ef database update
 ```bash
 dotnet run
 ```
+
+
+II. Funkcjonalności
+
+- Import danych o krajach z zewnętrznego API
+- Zapis danych w lokalnej bazie SQLite
+- Wyszukiwanie krajów po nazwie
+- Statystyki (liczba krajów, regiony, najludniejszy kraj)
+
+
+III. Technologie
+
+- .NET 10
+- ASP.NET Core Web API
+- Entity Framework Core
+- SQLite
+- Swagger (Swashbuckle)
 
 
 IV. Endpointy API
