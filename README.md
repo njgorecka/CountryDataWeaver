@@ -3,7 +3,7 @@
 Prosta aplikacja Web API napisana w ASP.NET Core, która pobiera dane o krajach z publicznego API, zapisuje je w bazie SQLite oraz udostępnia własne endpointy do ich przeglądania i analizy.
 
 
-I. Uruchomienie projektu
+###I. Uruchomienie projektu
 
 1. Sklonuj repozytorium
 
@@ -31,7 +31,7 @@ dotnet run
 ```
 
 
-II. Funkcjonalności
+###II. Funkcjonalności
 
 - Import danych o krajach z zewnętrznego API
 - Zapis danych w lokalnej bazie SQLite
@@ -39,7 +39,7 @@ II. Funkcjonalności
 - Statystyki (liczba krajów, regiony, najludniejszy kraj)
 
 
-III. Technologie
+###III. Technologie
 
 - .NET 10
 - ASP.NET Core Web API
@@ -48,7 +48,7 @@ III. Technologie
 - Swagger (Swashbuckle)
 
 
-IV. Endpointy API
+###IV. Endpointy API
 
 1. Import danych
 	POST /api/Countries/import - Pobiera dane z zewnętrznego API i zapisuje je do bazy.
@@ -63,7 +63,7 @@ IV. Endpointy API
 	GET /api/Countries/stats - Zwraca podstawowe statystyki (liczbę krajów, unikalnych regionów oraz najludniejszy kraj).
 
 
-V. Struktura projektu
+###V. Struktura projektu
 
 - Controllers/
 - Data/
@@ -71,7 +71,7 @@ V. Struktura projektu
 - Services/
 
 
-VI. Dodatkowe informacje
+###VI. Dodatkowe informacje
 
 - Aplikacja zapobiega dodawaniu duplikatów podczas importu
 - Dane przechowywane są lokalnie w pliku countries.db
@@ -79,7 +79,7 @@ VI. Dodatkowe informacje
 	/swagger
 
 
-VII. Podgląd
+###VII. Podgląd
 
 Po uruchomieniu aplikacji dokumentacja Swagger UI jest dostępna pod adresem:
 
